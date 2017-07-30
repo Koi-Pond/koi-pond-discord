@@ -1,8 +1,12 @@
-//META{"name":"Koi's Pond","description":"UNSTABLE BETA 0.1.1: Changed background","author":"Koi","version":"0.1.1"}*//{}
+//META{"name":"Koi's Pond","description":"UNSTABLE BETA 0.1.1: Some color and pattern changes","author":"Koi","version":"0.1.1"}*//{}
 
 /* In order to change the colour scheme from cyan to something else, CTRL+F "#00cccc", "cyan" and "rgba(0,204,204, " and replace with whichever Hex colour or rgba code you'd like. */
 /* To change background image, change the two HTTPS links below to an image of your choice */
 /* Make sure the image you are using is a HTTPS Link Or it WONT work */
+
+/* #33a980 */
+/* aquamarine */
+/* 51, 169, 128 */
 
 .app {
     background-image: url(https://i.imgur.com/7jLDfhN.jpg) !important;
@@ -75,7 +79,7 @@ body {
 .guild-channels .channel-text:hover:not(.unread):before,
 .private-channels .channel.selected:before,
 .private-channels .channel:hover:before {
-    border-left: 3px solid #00cccc;
+    border-left: 3px solid #33a980;
 }
 .avatar-large.animate {
     border: 2px solid rgba(0, 204, 204, 0.6) !important;
@@ -195,7 +199,7 @@ body {
     color: #ffffff !important;
 }
 .links li a:hover {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .channel-textarea-inner {
     background-color: rgba(0, 0, 0, 0.3) !important;
@@ -430,7 +434,7 @@ body {
     opacity: 1;
 }
 .guild-header-open ul li a {
-    color: #00cccc;
+    color: #33a980;
     opacity: 1 !Important;
 }
 
@@ -550,7 +554,7 @@ body {
 .highlight:hover {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 3px !important;
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .chat .title-wrap {
     padding-bottom: 1px;
@@ -575,10 +579,10 @@ body {
     margin-top: 10px !important;
 }
 .speaking .avatar-small {
-    border: 2px dotted #00cccc !important;
+    border: 2px dotted #33a980 !important;
 }
 .speaking .avatar-small:hover {
-    border: 2px dotted #00cccc !important;
+    border: 2px dotted #33a980 !important;
 }
 .channel-members .member.popout-open {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)) !important;
@@ -595,21 +599,21 @@ body {
 /* Unread Channel Message */
 
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-    background: #00CCCC !important;
+    background: #33a980 !important;
 }
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.unread:before {
-    background: #00CCCC !important;
+    background: #33a980 !important;
 }
 /* Guild Unread Message */
 
 .guilds-wrapper .guilds .guild.selected:before {
-    background: #00CCCC !important;
+    background: #33a980 !important;
 }
 .divider.divider-red span {
     background-color: rgba(0, 0, 0, 0.7) !important;
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .divider.divider-red>div {
     background: rgba(0, 204, 204, 0.7) !important;
@@ -628,10 +632,10 @@ body {
 }
 .private-channels .channel.selected:before {
     background-color: linear-gradient(to right, rgba(0, 204, 204, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 2px solid #00cccc;
+    border-left: 2px solid #33a980;
 }
 .priavte-channels .channel:hover::before {
-    border-left: 2px solid #00cccc !important;
+    border-left: 2px solid #33a980 !important;
     background-color: linear-gradient(to right, rgba(0, 204, 204, 0.4), rgba(0, 0, 0, 0.0)) !important;
 }
 
@@ -675,7 +679,7 @@ body {
 }
 .new-messages-bar button {
     background-color: #3b3b3b !Important;
-    color: #00cccc !important;
+    color: #33a980 !important;
     margin-top: 13px !imp;
 }
 span.bot-tag {
@@ -689,10 +693,10 @@ span.bot-tag {
     border-bottom-left-radius: 10px !important;
 }
 .instant-invite-popout header {
-    background-color: #00cccc !Important;
+    background-color: #33a980 !Important;
 }
 .countdown {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .checkbox span {
     color: #a8a8a8 !important;
@@ -729,14 +733,14 @@ span.bot-tag {
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
 .form-header header {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .form-inner p {
     color: #ffffff !important;
 }
 .btn.btn-default.close {
     background-color: rgba(0, 0, 0, 0.0) !important;
-    color: #00cccc;
+    color: #33a980;
 }
 .form-header {
     background-color: rgba(0, 0, 0, 0.5) !important;
@@ -745,10 +749,10 @@ span.bot-tag {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 ul li a {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .header.control-group {
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -761,29 +765,29 @@ ul li a {
 #settings-username {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #33a980 !Important;
 }
 #settings-email {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #33a980 !Important;
 }
 #settings-current-password {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #33a980 !Important;
 }
 button.btn.btn-primary {
-    background-color: #00cccc !Important;
+    background-color: #33a980 !Important;
 }
 .settings-actions {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
 a.remove-button {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .control-group label a {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .settings .settings-inner,
 .settings .settings-actions {
@@ -803,7 +807,7 @@ a.remove-button {
     margin-left: -5px !important;
 }
 .checkbox-inner span {
-    background-color: #00cccc !Important;
+    background-color: #33a980 !Important;
     border-color: rgba(0, 0, 0, 0.5) !important;
 }
 .radio-inner {
@@ -816,13 +820,13 @@ a.remove-button {
     margin-right: 10px !important;
 }
 .tab-bar-item.selected {
-    color: #00cccc !Important;
+    color: #33a980 !Important;
 }
 div p a {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .radio-theme.dark label {
-    border-color: #00cccc !important;
+    border-color: #33a980 !important;
 }
 .radio-theme.light label {
     border-color: #ffffff!important;
@@ -834,25 +838,25 @@ div p a {
     -webkit-filter: hue-rotate(305deg) saturate(400%) !important;
 }
 .slider-bar-fill {
-    background: #00cccc !important;
+    background: #33a980 !important;
 }
 .radio .radio-inner span:after {
-    background: #00cccc !important;
+    background: #33a980 !important;
 }
 .tab-bar-item:hover {
     background-color: transparent;
 }
 .tab-bar.TOP .tab-bar-item.selected {
-    border-bottom: 2px solid #00cccc !important;
+    border-bottom: 2px solid #33a980 !important;
 }
 #help-query {
-    border-color: #00cccc;
+    border-color: #33a980;
     border-width: 3px;
 }
 /* User profile popup message box */
 
 .user-popout .header {
-    background: transparent;
+    /*background: transparent;*/
     /*background-image: https: //www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
     background-size: cover !important;
 }
@@ -861,24 +865,24 @@ div p a {
     background-color: rgba(255, 255, 255, 0.8) !important;
 }
 .reset-voice-settings {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 /* Add new server popup window */
 
 .form-inner header {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .form-inner {
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
 .action-header {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .action-icon {
     background-color: #ffffff !important;
 }
 .btn.btn-primary {
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
 }
 /* Light Theme Support*/
 
@@ -937,17 +941,17 @@ img.image {
 
 #app-mount > div > span:nth-child(6) > div.modal > div > div > a:hover{
     text-align: center;
-    color: #00cccc;
+    color: #33a980;
 }
 
 div.form-inner {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
 ul li a {
-    color: #00cccc;
+    color: #33a980;
 }
 div.form-inner {
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
 }
 .connection-integrations.no-integrations div {
     color: #6b6b6b !important;
@@ -956,7 +960,7 @@ div.form-inner {
     background-color: #ffffff !important;
 }
 .settings-panel-header.user-settings-modal-connections-header label {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .tab-bar-item {
     margin-right: 5px !important;
@@ -971,7 +975,7 @@ span.channel-name {
     color: #ffffff !important;
 }
 header.header {
-    background: transparent !important;
+    /*background: transparent !important;*/
     /*background-image: url(https://www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
     background-size: cover !important;
 }
@@ -980,7 +984,7 @@ div.sub-header {
     background-color: rgba(0, 204, 204, 0.7) !important;
 }
 div.btn {
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
     border: 1px solid white;
 }
 #user-profile-modal footer {
@@ -988,19 +992,19 @@ div.btn {
 }
 button.btn.add-friend {
     background: transparent !important !important;
-    background-color: #00cccc !important !important;
+    background-color: #33a980 !important !important;
 }
 div.flex-horizontal.flex-spacer.content-inner label {
     color: #ffffff !important;
 }
 label.subtitle {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 label.title {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 div.control-group label {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 div.checkbox span {
     color: #a6a6a6 !important;
@@ -1019,7 +1023,7 @@ div.help-text {
 .channel-pins .message-group {
     background: transparent !important;
     background-color: rgba(0, 0, 0, 0.4) !important;
-    border: 1px solid #00cccc !important;
+    border: 1px solid #33a980 !important;
 }
 .action-buttons .jump-button {
     background: transparent !important;
@@ -1061,7 +1065,7 @@ code.hljs {
     -webkit-mask-image: url(/assets/c60e5f90bd86a4bcf2a60389ef6fcea1.svg);
 }
 .account .btn:hover:after {
-    background: cyan;
+    background: aquamarine;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     -webkit-mask-size: 16px;
@@ -1077,21 +1081,21 @@ code.hljs {
 
 
 div.icon-friends {
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
 }
 
 .channel-textarea-autocomplete {
-    background-color: #00CCCC !important;
+    background-color: #33a980 !important;
 }
 
 #rtc-connection .btn:hover:after {
-    background: cyan;
+    background: aquamarine;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
 }
 div.add-friend-popout header {
     background: transparent !important;
-    background-color: #00cccc !important;
+    background-color: #33a980 !important;
 }
 div.notice {
     background-color: #474747 !important;
@@ -1104,7 +1108,7 @@ div.activity {
     color: #fff !important;
 }
 a.embed-title {
-    color: #00cccc !important;
+    color: #33a980 !important;
 }
 .tab-bar.SIDE .tab-bar-item.selected:before {
     opacity: 0;
@@ -1224,7 +1228,7 @@ div.bd-dropdown-list {
 
 .server-row .server-icon {
     border-radius: 5px !important;
-    border: 2px solid #00cccc;
+    border: 2px solid #33a980;
 }
 
 
@@ -1240,12 +1244,12 @@ div.bd-dropdown {
 }
 
 .server-official {
-    color: #00cccc !important;
+    color: #33a980 !important;
  animation: color_change 1s infinite alternate;
 }
 @keyframes color_change {
  from { color: #fff; }
- to { color: #00cccc; }
+ to { color: #33a980; }
 }
 
 #pubs-footer {
@@ -1315,7 +1319,7 @@ div.bd-dropdown {
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div > header{
-    background-color: rgba(0,204,204,0.8) !important;
+    background-color: rgba(51, 169, 128,0.8) !important;
     color: #fff !important;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1323,7 +1327,7 @@ div.bd-dropdown {
 }
 
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete > div > ul{
-    background-color: rgba(0,204,204,0.6) !important;
+    background-color: rgba(51, 169, 128,0.6) !important;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
 }
