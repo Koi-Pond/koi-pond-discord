@@ -259,6 +259,7 @@
         text-overflow: ellipsis;}
 }
 
+/*
 @media (max-width: 1420px) {
     .account .username {
         width: 32px !important;
@@ -287,20 +288,4 @@
         padding-left: 5% !important;
     }
 }
-
-/*
-.search-bar {
-    margin-left: 1.vh !important;
-    width: 90%;
-}
-.guild-header.guild-header-open ul {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    margin-left: 1.9vh;
-    width: 13.8vw;
-}
-.guild-header-open ul {
-    opacity: 1;
-}
-
 */
