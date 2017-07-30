@@ -853,7 +853,7 @@ div p a {
 
 .user-popout .header {
     background: transparent;
-    background-image: https: //www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;
+    /*background-image: https: //www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
     background-size: cover !important;
 }
 .avatar-popout.animate {
@@ -972,7 +972,7 @@ span.channel-name {
 }
 header.header {
     background: transparent !important;
-    background-image: url(https://www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;
+    /*background-image: url(https://www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
     background-size: cover !important;
 }
 div.sub-header {
@@ -1410,7 +1410,7 @@ div[data-bd="backdrop"] {
     background:rgba(0,0,0,0.84)!important;
 }
 
-/* Custom Cyan-coloured Icons */
+/* Custom Cyan-coloured Icons 
 .icon-muted {
     background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-muted.svg') !important;
 }
@@ -1426,3 +1426,4 @@ div[data-bd="backdrop"] {
 .icon-instant-invite {
   background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-instant-invite.svg') !important;
 }
+*/
