@@ -756,8 +756,8 @@ ul li a {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
-/** User settings */
-
+/* User settings */
+/*
 .avatar-uploader-inner {
     background-color: rgba(0, 0, 0, 0.1) !Important;
     border-radius: 20px !important;
@@ -853,11 +853,16 @@ div p a {
     border-color: #33a980;
     border-width: 3px;
 }
+
+*/
+
 /* User profile popup message box */
 
+/*
 .user-popout .header {
     /*background: transparent;*/
     /*background-image: https: //www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
+    /* continues v
     background-size: cover !important;
 }
 .avatar-popout.animate {
@@ -867,8 +872,11 @@ div p a {
 .reset-voice-settings {
     color: #33a980 !important;
 }
+*/
+
 /* Add new server popup window */
 
+/*
 .form-inner header {
     color: #33a980 !important;
 }
@@ -884,8 +892,10 @@ div p a {
 .btn.btn-primary {
     background-color: #33a980 !important;
 }
-/* Light Theme Support*/
+*/
 
+/* Light Theme Support*/
+/*
 .channel-textarea-inner textarea {
     padding-left: 10px !important;
     color: rgba(0, 204, 204, 0.7) !important;
@@ -977,6 +987,7 @@ span.channel-name {
 header.header {
     /*background: transparent !important;*/
     /*background-image: url(https://www.xmple.com/wallpaper/polka-dots-cyan-spots-1920x1080-c2-10c0c7-0cdce5-l2-121-256-a-210-f-3.svg) !important;*/
+    /* continues v
     background-size: cover !important;
 }
 div.sub-header {
@@ -1152,12 +1163,12 @@ div.new-messages-bar button {
 .tab-bar.SIDE .tab-bar-item:before {
     display: none !important;
 }
-
+*/
 
 
 /* Public Server CSS */
 
-
+/*
 #pubs-container {
     background: transparent !important;
     background-color: rgba(0, 0, 0, 0.7) !important;
@@ -1260,6 +1271,7 @@ div.bd-dropdown {
     border-top: 1px solid rgba(255,255,255,0.3);
 }
 
+*/
 
 /* Scroller for popup servers window */
 
@@ -1306,7 +1318,7 @@ div.bd-dropdown {
 
 /* Popup @person box */
 
-
+/*
 #app-mount > div > div.app.flex-vertical.theme-dark > div > section > div.chat.flex-vertical.flex-spacer > div.content.flex-spacer.flex-horizontal > div.flex-spacer.flex-vertical > form > div > div.channel-textarea-autocomplete{
     background: transparent !important;
 }
@@ -1344,11 +1356,12 @@ div[data-bd="backdrop"] {
     background-size: cover !important;
 }
 
+*/
 
 /* Paste into console to pause @innertext box: setTimeout(function(){debugger;}, 5000) */
 /* Styling thanks to Nyxxay#8107 */
 
-
+/*
 #rmenu {
     background: #3DA9A9 !important;
     border: 1px solid #3DA9A9;
@@ -1413,6 +1426,8 @@ div[data-bd="backdrop"] {
 .channel-textarea-autocomplete-inner header {
     background:rgba(0,0,0,0.84)!important;
 }
+
+*/
 
 /* Custom Cyan-coloured Icons 
 .icon-muted {
