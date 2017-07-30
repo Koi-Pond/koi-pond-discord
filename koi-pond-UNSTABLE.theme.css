@@ -258,34 +258,3 @@
         overflow: hidden;
         text-overflow: ellipsis;}
 }
-
-/*
-@media (max-width: 1420px) {
-    .account .username {
-        width: 32px !important;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-    .channel-members {
-        max-width: 150px !important;
-    }
-    .channel-members h2 {
-        font-size: 10px !important;
-        padding-left: 10px !Important;
-    }
-    .member-activity {
-        color: rgba(255, 255, 255, 0.8) !important;
-        font-size: 10px !important;
-    }
-    .member-status {
-        padding-left: 20px !important;
-    }
-    .channel-members-wrap {
-        min-width: 80px !important;
-    }
-    .invite-btn {
-        padding-left: 5% !important;
-    }
-}
-*/
