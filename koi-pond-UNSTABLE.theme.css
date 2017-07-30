@@ -1,238 +1,5 @@
 //META{"name":"Koi's Pond","description":"UNSTABLE BETA 0.1.1: Some color and pattern changes","author":"Koi","version":"0.1.1"}*//{}
 
-/* In order to change the colour scheme from cyan to something else, CTRL+F "#00cccc", "cyan" and "rgba(0,204,204, " and replace with whichever Hex colour or rgba code you'd like. */
-/* To change background image, change the two HTTPS links below to an image of your choice */
-/* Make sure the image you are using is a HTTPS Link Or it WONT work */
-
-/* #33a980 */
-/* aquamarine */
-/* 51, 169, 128 */
-
-
-.app {
-    background-image: url(https://i.imgur.com/7jLDfhN.jpg) !important;
-    background-size: cover !important;
-}
-
-
-/*
-.layers, .layer {
-    background: transparent !important;
-}
-*/
-
-
-.callout-backdrop {
-    background-color: black;
-    background-image: url(https://i.imgur.com/7jLDfhN.jpg) !important;
-    -webkit-transition: 0.3s all ease;
-    -o-transition: 0.3s all ease;
-    -moz-transition: 0.3s all ease;
-    transition: 0.3s all ease;
-    background-size: cover !important;
-    -webkit-filter: brightness(75%);
-}
-
-.user-popout:before {
-    background-image: url("https://i.imgur.com/7jLDfhN.jpg") !important;
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    background-position: 50% 50%;
-    -webkit-filter: blur(3px);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
-#user-profile-modal .header:before {
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/7jLDfhN.jpg") !important;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/7jLDfhN.jpg") !important;
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-position: 50% 50%;
-    background-size: cover !important;
-    -webkit-filter: blur(3px);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-#pubs-container {
-    background-image: url("https://imgur.com/RG03PyX.png") !important;
-    transition: 0.3s all ease;
-    background-size: cover !important;
-}
-
-.auth-background {
-    background-image: url("https://imgur.com/RG03PyX.png") !important;
-    background-size: cover !important;
-}
-
-.auth-tiling-bg {
-    background-color: #2e3136;
-    background-image: url("https://imgur.com/RG03PyX.png") !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body {
--webkit-backface-visibility: hidden;
-}
-
- .theme-dark .chat{background: transparent;}
-
-#rtc-connection {
-    border-top: 1px solid rgba(255, 255, 255, 0.0);
-}
-#rtc-connection .btn,
-.account .btn {
-    border: none;
-}
-#rtc-connection,
-#friends,
-#friends .btn,
-.friends-header,
-.friends-table,
-.search-bar,
-.guilds-wrapper,
-.channels-wrap,
-.guild-channels,
-.account,
-.links,
-.messages-wrapper,
-.title-wrap,
-.content,
-.chat-empty,
-.message-group-blocked,
-.private-channels,
-.guild-header header,
-.typing,
-.ider-red span {
-    background: transparent !important;
-}
-
-.channel:not(.selected) {
-    transition: background .3s ease-out !important;
-}
-.channel:not(.selected):hover {
-    background: rgba(0, 0, 0, 0.0) !important;
-    transition: background .2s ease-in !important;
-}
-.friends-row:hover,
-.search-result:hover,
-.btn-friends.selected,
-.search-result.selected,
-.channel.selected.private,
-.channel.channel-text.selected {
-    background: rgba(0, 0, 0, 0.0) !important;
-}
-.guild-channels .channel-text.selected {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)) !important;
-}
-.guild-channels .channel-text.selected:before,
-.guild-channels .channel-text.selected:hover:before,
-.guild-channels .channel-text:hover.channel-muted:before,
-.guild-channels .channel-text:hover:not(.unread):before,
-.private-channels .channel.selected:before,
-.private-channels .channel:hover:before {
-    border-left: 3px solid #33a980;
-}
-.avatar-large.animate {
-    border: 2px solid rgba(0, 204, 204, 0.6) !important;
-    width: 40px;
-    height: 40px;
-}
-.guild-channels .channel-text:hover {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0)) !important;
-}
-.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
-    left: -11px;
-}
-.guild-header header {
-    background-color: rgba(0, 0, 0, 0.0) !important;
-    box-shadow: none !important;
-}
-.guild-header ul {
-    opacity: 0;
-    transition: transform .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-}
-.guild-header-open ul {
-    opacity: 1;
-}
-.invite-btn {
-    background-color: rgba(0, 204, 204, 0.5) !Important;
-}
-.private-channels .channel:hover:before {
-    opacity: .25 !important;
-}
-.user-settings-modal button.preview-sound:before {
-    -webkit-filter: hue-rotate(275deg) saturate(400%);
-}
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 1px solid rgba(0, 0, 0, 0.3) !important;
-}
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0.0) !important;
-    border: 1px solid rgba(0, 0, 0, 0.0) !important;
-}
-.voice-connection-channel {
-    color: #000000;
-    font-size: 12px;
-}
-.inline {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 5px;
-    font-size: 12px;
-    line-height: 22px;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Transparency*/
 /*Guild name*/
 /*Scrolling bar*/
@@ -301,9 +68,7 @@ body {
 .member-activity {
     color: #ffffff !important;
 }
-.links li a:hover {
-    color: #33a980 !important;
-}
+
 .channel-textarea-inner {
     background-color: rgba(0, 0, 0, 0.3) !important;
     border-radius: 7px;
@@ -536,10 +301,7 @@ body {
 .guild-header-open ul {
     opacity: 1;
 }
-.guild-header-open ul li a {
-    color: #33a980;
-    opacity: 1 !Important;
-}
+
 
 
 
@@ -654,26 +416,17 @@ body {
 .highlight {
     color: #00faf2 !important;
 }
-.highlight:hover {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-radius: 3px !important;
-    color: #33a980 !important;
-}
+
 .chat .title-wrap {
     padding-bottom: 1px;
     border-bottom: 1px solid transparent !important;
     margin-top: 1px;
 }
-.friends-icon {
-    background-color: rgba(0, 204, 204, 0.9);
-}
+
 .friends-online {
     color: #ffffff;
 }
-.guild-separator {
-    border-top: 2px solid rgba(0, 204, 204, 0.5);
-    border-bottom: 2px solid rgba(0, 204, 204, 0.5);
-}
+
 .guild-separator:after {
     background-color: transparent !important;
 }
@@ -681,66 +434,11 @@ body {
     margin-bottom: 2.3vh !important;
     margin-top: 10px !important;
 }
-.speaking .avatar-small {
-    border: 2px dotted #33a980 !important;
-}
-.speaking .avatar-small:hover {
-    border: 2px dotted #33a980 !important;
-}
-.channel-members .member.popout-open {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 4px solid rgba(0, 204, 204, 0.9);
-}
+
+
 .status {
     border-color: transparent !important;
 }
 #rtc-connection .btn-info:after {
     padding-bottom: 2px;
 }
-
-
-
-
-
-
-
-/* Scroller for popup servers window */
-/*
-#pubs-scroller::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 2px solid rgba(0, 0, 0, 0.4) !important;
-}
-#pubs-scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 1px solid rgba(0, 0, 0, 0.2) !important;
-}
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar,
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,
-.bda-dark #pubs-container .scroller::-webkit-scrollbar,
-.bda-dark #pubs-container .scroller::-webkit-scrollbar-track,
-.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 1px solid rgba(0, 0, 0, 0.2) !important;
-}
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb,
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb,
-.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 2px solid rgba(0, 0, 0, 0.4) !important;
-}
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb:active,
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb:active,
-.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb:active,
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb:active {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 1px solid rgba(0, 0, 0, 0.2) !important;
-}
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border: 1px solid rgba(0, 0, 0, 0.2) !important;
-}
-*/
