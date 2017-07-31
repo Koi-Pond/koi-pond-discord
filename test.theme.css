@@ -17,26 +17,14 @@ body {
 
  .theme-dark .chat{background: transparent;}
 
-/*
-#rtc-connection {
-    border-top: 1px solid rgba(255, 255, 255, 0.0);
-}
-#rtc-connection .btn,
-.account .btn {
-    border: none;
-}
-*/
-
-#rtc-connection,
+/*#rtc-connection,
 #friends,
 #friends .btn,
 .friends-header,
-.friends-table,
+.friends-table,*/
 .search-bar,
-/*.guilds-wrapper,*/
 .channels-wrap,
-/*.guild-channels,*/
-.account,
+/*.account,*/
 .links,
 .messages-wrapper,
 .title-wrap,
@@ -44,7 +32,6 @@ body {
 .chat-empty,
 .message-group-blocked,
 .private-channels,
-/*.guild-header header,*/
 .typing,
 .ider-red span {
     background: transparent !important;
