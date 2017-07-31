@@ -17,6 +17,7 @@ body {
 
  .theme-dark .chat{background: transparent;}
 
+/*
 #rtc-connection {
     border-top: 1px solid rgba(255, 255, 255, 0.0);
 }
@@ -24,15 +25,17 @@ body {
 .account .btn {
     border: none;
 }
+*/
+
 #rtc-connection,
 #friends,
 #friends .btn,
 .friends-header,
 .friends-table,
 .search-bar,
-.guilds-wrapper,
+/*.guilds-wrapper,*/
 .channels-wrap,
-.guild-channels,
+/*.guild-channels,*/
 .account,
 .links,
 .messages-wrapper,
@@ -41,7 +44,7 @@ body {
 .chat-empty,
 .message-group-blocked,
 .private-channels,
-.guild-header header,
+/*.guild-header header,*/
 .typing,
 .ider-red span {
     background: transparent !important;
