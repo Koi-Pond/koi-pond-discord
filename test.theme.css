@@ -19,17 +19,15 @@ body {
     background: transparent;
 }
 
-/*.search-bar,*/
+/*.ider-red span,*/
 .channels-wrap,
-.links,
-/*.messages-wrapper,*/
-/*.title-wrap,*/
+/*.links,*/
+.messages-wrapper,
+.title-wrap,
 .content,
 .chat-empty,
 .message-group-blocked,
-.private-channels,
 /*.typing,*/
-.ider-red span {
+.private-channels {
     background: transparent !important;
 }
-
