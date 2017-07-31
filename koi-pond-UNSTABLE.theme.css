@@ -1,7 +1,8 @@
 //META{"name":"Koi's Pond","description":"UNSTABLE BETA 0.2.1: Continued Isolation","author":"Koi","version":"0.2.1"}*//{}
 
-.app,
-.callout-backdrop {
+/* BACKGROUND
+.callout-backdrop,
+.app {
 	background: url(https://i.imgur.com/EP6ths8.png) !important;
 	background-size: cover !important;
 }
@@ -13,113 +14,32 @@
 .content {
     background: transparent !important;
 }
+END BACKGROUND */
 
-
-
-
-/*
-
-
-.chat .messages-wrapper {
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%) !important;
+/* SROLL BAR */
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+/* END SCROLL BAR */
 
+/* CHAT BOXES */
 .message-group {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(150, 100, 200, .2);
     border-radius: 10px;
     margin-top: 10px !important;
     padding-left: 20px !important;
 }
-.scroller.channel-members {
-    padding-top: 3px !important;
-}
-.guild-channels {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-right: 1px solid transparent;
-    margin-left: 2vh !important;
-    margin-top: 63px;
-    margin-bottom: 0.1vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-}
-.account {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-top-left-radius: 5px !important;
-    border-top-right-radius: 5px !important;
-    margin-top: 1.6vh;
-    margin-left: 2vh !important;
-    margin-bottom: 2.5vh;
-    height: 8vh;
-    width: auto;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-}
+/* END CHAT BOXES */
 
-.username {
-    font-size: 90% !important;
-}
-.discriminator {
-    font-size: 70% !important;
-}
-#rtc-connection {
-    margin-left: 3vh !important;
-}
+/* GUILD BAR
 .guilds {
-    padding-top: 20px !important;
-    margin-top: 80%;
-    margin-bottom: 130%;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-right: 4px solid rgba(0, 0, 0, 0.2);
-    border-top: 4px solid rgba(0, 0, 0, 0.9);
-    border-bottom: 4px solid rgba(0, 0, 0, 0.9);
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 94%, rgba(0, 0, 0, 0) 100%);
+    margin-top: 55px;
+    margin-bottom: 51px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
-
-
-.channels-wrap {
-    width: 15vw !important;
-}
-#rtc-connection .btn-info {
-    border-right: 1px solid rgba(255, 255, 255, .2);
-    height: 26px;
-    bottom: 3px;
-}
-.account .btn-mute {
-    border-right: 1px solid rgba(255, 255, 255, .2);
-    height: 26px;
-}
-.account .btn-settings {
-    border-right: 1px solid rgba(255, 255, 255, .2);
-    height: 26px;
-}
-.account .btn-deafen {
-    border-right: 1px solid rgba(255, 255, 255, .2);
-    height: 26px;
-    background-color: rgba(0, 0, 0, .3);
-}
-.account .btn-deafen:hover {
-    background-color: rgba(0, 0, 0, .5);
-}
-.account .btn-group,
-#rtc-connection .btn-group {
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, .3) !important;
-}
-#rtc-connection .btn {
-    background: transparent !important;
-    border: none;
-}
-.account .btn {
-    background: transparent !important;
-    border: none;
-}
-.channel-members {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    margin-right: 20px;
-    margin-top: 3px !important;
-    margin-bottom: 2.3vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-}
-
-*/
+END GUILD BAR */
