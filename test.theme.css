@@ -2,31 +2,14 @@
 
 .app,
 .callout-backdrop {
-	background: url(https://i.imgur.com/7SbtKvw.png) !important;
+	background: url(https://i.imgur.com/EP6ths8.png) !important;
 	background-size: cover !important;
 }
 
+.layer,
 .layers,
-.layer {
-    background: transparent !important;
-}
-
-
-body {
-    -webkit-backface-visibility: hidden;
-}
-
-.theme-dark .chat {
-    background: transparent;
-}
-
-
-.channels-wrap,
+.theme-dark .chat,
 .messages-wrapper,
-.title-wrap,
-.content,
-/*.chat-empty,*/
-.message-group-blocked,
-.private-channels {
+.content {
     background: transparent !important;
 }
