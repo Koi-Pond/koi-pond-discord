@@ -6,10 +6,8 @@
 	background-size: cover !important;
 }
 
-
-.links,
-.help-container {
-	display: none;
+textarea {
+	background: transparent !important;
 }
 
 .layers,
@@ -31,19 +29,49 @@
 	background: transparent !important;
 }
 
-/* Server list area */
-.guilds-wrapper { background:rgba(0,0,0,0.6) !important }
+.search-popout .option.selected:after {
+	background: transparent !important;
+}
 
-/* Channels list area */
-.channels-wrap { background:rgba(0,0,0,0.7) }
+.search-results-wrap .search-header {
+	background: transparent !important;
+}
 
-/* Chat area */
-.content .flex-spacer { background:rgba(0,0,0,0.8) }
+.search-results-wrap .search-result:before {
+	background: transparent !important;
+}
 
-/* User list area */
-.channel-members { background:rgba(0,0,0,0.9) !important }
+.search-results-wrap .search-result:after {
+	background: transparent !important;
+}
 
+.modal-content {
+	background: transparent !important;
+}
 
+.chat .empty-message {
+	background: transparent !important;
+}
+
+#friends {
+	background: transparent !important;
+}
+
+.bda-slist li {
+	background: transparent !important;
+}
+
+.ui-standard-sidebar-view {
+	background: transparent !important;
+}
+
+.popout-menu {
+	background: transparent !important;
+}
+
+.popout-menu.status-picker {
+	background: transparent;
+}
 
 
 
