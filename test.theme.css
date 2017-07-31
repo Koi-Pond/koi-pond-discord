@@ -19,22 +19,16 @@ body {
     background: transparent;
 }
 
-/*#rtc-connection,
-#friends,
-#friends .btn,
-.friends-header,
-.friends-table,*/
-.search-bar,
+/*.search-bar,*/
 .channels-wrap,
-/*.account,*/
 .links,
-.messages-wrapper,
-.title-wrap,
+/*.messages-wrapper,*/
+/*.title-wrap,*/
 .content,
 .chat-empty,
 .message-group-blocked,
 .private-channels,
-.typing,
+/*.typing,*/
 .ider-red span {
     background: transparent !important;
 }
