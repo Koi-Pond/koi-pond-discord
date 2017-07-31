@@ -3,6 +3,8 @@
 .chat .messages-wrapper {
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%) !important;
 }
+
+/*
 .links li a {
     margin-left: 1.2vw !important;
     color: #dbdbdb !important;
@@ -10,6 +12,8 @@
 .guild-channels header {
     overflow: hidden !important;
 }
+*/
+
 .message-group {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -60,6 +64,8 @@
     border-bottom: 4px solid rgba(0, 0, 0, 0.9);
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 1) 94%, rgba(0, 0, 0, 0) 100%);
 }
+
+/*
 .btn {
     width: auto !important;
 }
@@ -83,6 +89,8 @@
     height: 2.8vh !important;
     width: 2vw !important;
 }
+*/
+
 .channels-wrap {
     width: 15vw !important;
 }
@@ -127,25 +135,9 @@
     margin-bottom: 2.3vh;
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
 }
-.links {
-    display: none;
-}
 
 /*
-.account .username {
-        width: 65px !important;
-        font-size:10px !important;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 1620px){
-    .account .username {
-        width: 50px !important;
-        font-size:10px !important;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;}
+.links {
+    display: none;
 }
 */
