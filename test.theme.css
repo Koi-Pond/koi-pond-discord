@@ -11,6 +11,7 @@
     background: transparent !important;
 }
 
+/*
 body {
     -webkit-backface-visibility: hidden;
 }
@@ -18,12 +19,13 @@ body {
 .theme-dark .chat {
     background: transparent;
 }
+*/
 
 .channels-wrap,
 .messages-wrapper,
 .title-wrap,
-/*.content,
-.chat-empty,*/
+.content,
+/*.chat-empty,*/
 .message-group-blocked,
 .private-channels {
     background: transparent !important;
