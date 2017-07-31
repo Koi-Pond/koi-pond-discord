@@ -6,6 +6,54 @@
 	background-size: cover !important;
 }
 
+
+.links,
+.help-container {
+	display: none;
+}
+
+.layers,
+.container-RYiLUQ {
+	background: transparent !important;
+}
+
+.links,
+.chat,
+.typing,
+.content,
+.guild-channels,
+.private-channels,
+.guild-header header,
+.divider-red span,
+.messages-wrapper,
+#rtc-connection,
+#voice-connection {
+	background: transparent !important;
+}
+
+/* Server list area */
+.guilds-wrapper { background:rgba(0,0,0,0.6) !important }
+
+/* Channels list area */
+.channels-wrap { background:rgba(0,0,0,0.7) }
+
+/* Chat area */
+.content .flex-spacer { background:rgba(0,0,0,0.8) }
+
+/* User list area */
+.channel-members { background:rgba(0,0,0,0.9) !important }
+
+
+
+
+
+
+
+
+
+
+
+
 .chat .messages-wrapper {
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%) !important;
 }
