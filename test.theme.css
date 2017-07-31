@@ -1,21 +1,23 @@
 //META{"name":"Testing","description":"Background","author":"Koi","version":"1.0"}*//{}
 
-.app {
-    background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
-    background-size: cover !important;
-}
-.layers, .layer { background: transparent !important;
-}
+.app,
 .callout-backdrop {
-    background-image: url(https://i.imgur.com/6f8vevM.jpg) !important;
-    background-size: cover !important;
+	background: url(https://i.imgur.com/7SbtKvw.png) !important;
+	background-size: cover !important;
+}
+
+.layers,
+.layer {
+    background: transparent !important;
 }
 
 body {
--webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
- .theme-dark .chat{background: transparent;}
+.theme-dark .chat{
+    background: transparent;
+}
 
 /*#rtc-connection,
 #friends,
