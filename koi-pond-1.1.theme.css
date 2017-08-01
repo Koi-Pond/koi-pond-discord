@@ -1,0 +1,33 @@
+//META{"name":"Koi's Pond (V 1.1)","description":"Stable Build 1.1: Chat channel colors","author":"Koi","version":"1.1"}*//{}
+
+/* SROLL BAR */
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+/* END SCROLL BAR */
+
+/* CHAT BOXES */
+.message-group {
+    background-color: rgba(150, 100, 200, .2);
+    border-radius: 10px;
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+}
+/* END CHAT BOXES */
+
+/* CHANNEL COLORS */
+.contentSelectedText-3j5CXt {
+	background-color: rgba(150, 100, 200, .5);
+	filter:brightness(120%);
+}
+
+.contentHoveredText-2HYGIY,
+.contentHoveredVoice-3qGNKh:active,
+.contentSelectedVoice-gTtYM9:active {
+	background-color: rgba(150, 100, 200, .3);
+}
+/* END CHANNEL COLORS */
