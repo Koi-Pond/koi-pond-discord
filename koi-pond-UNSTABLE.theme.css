@@ -43,3 +43,57 @@ END BACKGROUND */
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 END GUILD BAR */
+
+
+/**********************************/
+
+#emote-menu {
+  background: #36393E;
+}
+
+#emote-menu-header {
+  background-color: #36393E;
+}
+
+.emote-menu-tab-selected {
+  background-color: #36393E;
+}
+.emote-menu-tab-selected:hover {
+  background-color: #36393E;
+}
+
+#tc-settings-panel-header {
+  background: #36393e;
+}
+
+#tc-settings-panel-footer {
+  background: #36393e;
+}
+
+#bd-ps-header {
+  background: #36393e;
+}
+
+.bd-alert-header {
+  background: #36393E;
+}
+
+#bd-customcss-detach-container {
+  background-color: #36393e;
+}
+
+.bda-dark .server-row {
+  background-color:#36393E;
+}
+
+.bda-dark #pubs-sterm {
+  background:#36393E;
+}
+
+.bda-dark .bd-select {
+  background:#36393E;
+}
+
+.bda-dark .bd-dropdown-list ul li:nth-child(odd) {
+  background:#36393E;
+}
